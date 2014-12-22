@@ -64,7 +64,7 @@ catkin_package(
 include(ExternalProject)
 ExternalProject_Add(ardronelib
 	GIT_REPOSITORY git://github.com/AutonomyLab/ardronelib.git
-	GIT_TAG bdacd1cbd3fbc54263d29e6e2067265e5941d10e
+	GIT_TAG 2356c404ced44ee37979797752b337d47db95a8b
 	PREFIX ${CMAKE_BINARY_DIR}/ardrone
 	CONFIGURE_COMMAND echo "No configure"
 	BUILD_COMMAND make
